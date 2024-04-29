@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_artifact_metadata_publisher_1714395467885-push-trigger-input-set
+  identifier: Build_artifact_metadata_publisher_1714395467885pushtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: CI_Security_Test
+  pipeline:
+    identifier: Build_artifact_metadata_publisher_1714395467885
+    properties:
+      ci:
+        codebase:
+          build:
+            type: branch
+            spec:
+              branch: <+trigger.branch>
